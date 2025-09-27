@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rv0627.github.io/Portfolio-Ravindu-Maleesha",
   "name": "portfolio-ravindu-maleesha",
   "version": "1.0.0",
   "private": true,
@@ -6,19 +7,21 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^10.16.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
     "react-icons": "^4.8.0",
-    "framer-motion": "^10.16.4",
     "react-intersection-observer": "^9.5.2",
+    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,9 +42,9 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.3.0",
     "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.24"
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.0"
   }
 }
-
