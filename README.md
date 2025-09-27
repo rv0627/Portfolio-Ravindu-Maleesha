@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio - Ravindu Maleesha
 
 A modern, responsive portfolio website showcasing my skills, projects, and experience as a Full Stack Software Engineering student.
@@ -138,3 +139,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ---
 
 ⭐ If you found this portfolio helpful, please give it a star on GitHub!
+=======
+# Portfolio-Ravindu-Maleesha
+>>>>>>> 933980e9bce51c9f38c37d6fb49c0974027cfb11
