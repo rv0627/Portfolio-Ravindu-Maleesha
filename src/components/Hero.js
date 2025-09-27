@@ -167,8 +167,8 @@ const Hero = ({ darkMode }) => {
           {/* Right: Profile Photo */}
           <motion.div
             variants={itemVariants}
-            className="flex justify-center md:justify-end items-center w-full md:w-auto mb-10 md:mb-0 relative"
-            style={{ zIndex: 10, marginTop: '-3rem' }}
+            className="flex flex-col items-center justify-center w-full md:w-auto mb-8 md:mb-0 relative"
+            style={{ zIndex: 10, marginTop: '-2rem' }}
           >
             <span
               className="inline-block rounded-full p-1 bg-gradient-to-tr from-primary-400 via-blue-400 to-purple-400 shadow-xl"
@@ -177,7 +177,7 @@ const Hero = ({ darkMode }) => {
               <img
                 src={process.env.PUBLIC_URL + "/profile.jpg"}
                 alt="Ravindu Maleesha Profile"
-                className="w-56 h-56 rounded-full object-cover shadow-lg transition-transform duration-300 hover:scale-105"
+                className="w-40 h-40 sm:w-56 sm:h-56 rounded-full object-cover shadow-lg transition-transform duration-300 hover:scale-105 mb-4 mt-2"
                 style={{ background: darkMode ? '#22223b' : '#fff' }}
               />
             </span>
