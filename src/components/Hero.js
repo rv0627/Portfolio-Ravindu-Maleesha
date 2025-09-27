@@ -177,7 +177,7 @@ const Hero = ({ darkMode }) => {
               <img
                 src={process.env.PUBLIC_URL + "/profile.jpg"}
                 alt="Ravindu Maleesha Profile"
-                className="w-40 h-40 sm:w-56 sm:h-56 rounded-full object-cover shadow-lg transition-transform duration-300 hover:scale-105 mb-4 mt-2"
+                className="w-40 h-40 sm:w-56 sm:h-56 rounded-full object-cover shadow-lg transition-transform duration-300 hover:scale-105"
                 style={{ background: darkMode ? '#22223b' : '#fff' }}
               />
             </span>
