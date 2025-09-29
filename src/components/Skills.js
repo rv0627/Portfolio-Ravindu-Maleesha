@@ -13,7 +13,8 @@ import {
   FaGitAlt,
   FaGithub,
   FaDatabase,
-  FaServer
+  FaServer,
+  FaPython
 } from 'react-icons/fa';
 import { 
   SiSpringboot, 
@@ -71,7 +72,8 @@ const Skills = ({ darkMode }) => {
     {
       title: "Backend Development",
       skills: [
-        { name: "Java", icon: FaJava, level: 90, color: "text-red-500" },
+  { name: "Java", icon: FaJava, level: 90, color: "text-red-500" },
+  { name: "Python", icon: FaPython, level: 80, color: "text-yellow-700" },
         { name: "Spring Boot", icon: SiSpringboot, level: 85, color: "text-green-500" },
         { name: "PHP", icon: FaPhp, level: 80, color: "text-indigo-500" },
         { name: "Laravel", icon: SiLaravel, level: 75, color: "text-red-600" },
