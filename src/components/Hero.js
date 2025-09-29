@@ -138,6 +138,14 @@ const Hero = ({ darkMode }) => {
               >
                 Get In Touch
               </motion.a>
+              <a
+                href={process.env.PUBLIC_URL + "/CV.pdf"}
+                download
+                className="btn-secondary inline-flex items-center gap-2"
+                style={{ minWidth: '140px', justifyContent: 'center' }}
+              >
+                <FaDownload /> Download CV
+              </a>
             </motion.div>
 
             {/* Social Links */}
