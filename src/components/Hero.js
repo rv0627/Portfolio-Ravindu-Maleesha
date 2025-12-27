@@ -139,8 +139,8 @@ const Hero = ({ darkMode }) => {
                 Get In Touch
               </motion.a>
               <a
-                href={process.env.PUBLIC_URL + "/CV.pdf"}
-                download
+                href={process.env.PUBLIC_URL + "/My Professional Resume New(Ass).pdf"}
+                download="Ravindu_Maleesha_CV.pdf"
                 className="btn-secondary inline-flex items-center gap-2"
                 style={{ minWidth: '140px', justifyContent: 'center' }}
               >
