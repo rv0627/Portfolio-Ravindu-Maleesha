@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Portfolio-Ravindu-Maleesha/static/css/main.e7115a84.css",
-    "main.js": "/Portfolio-Ravindu-Maleesha/static/js/main.1c471494.js",
+    "main.js": "/Portfolio-Ravindu-Maleesha/static/js/main.4b52b458.js",
     "index.html": "/Portfolio-Ravindu-Maleesha/index.html",
     "main.e7115a84.css.map": "/Portfolio-Ravindu-Maleesha/static/css/main.e7115a84.css.map",
-    "main.1c471494.js.map": "/Portfolio-Ravindu-Maleesha/static/js/main.1c471494.js.map"
+    "main.4b52b458.js.map": "/Portfolio-Ravindu-Maleesha/static/js/main.4b52b458.js.map"
   },
   "entrypoints": [
     "static/css/main.e7115a84.css",
-    "static/js/main.1c471494.js"
+    "static/js/main.4b52b458.js"
   ]
 }
