@@ -110,6 +110,25 @@ const Projects = ({ darkMode }) => {
         "User authentication"
       ],
       icon: FaCode
+    },
+    {
+      id: 5,
+      title: "Handicraft E-Commerce Platform",
+      description: "A tailored e-commerce platform for Sri Lankan artisans to showcase and sell handmade products. Built with React, Tailwind CSS, and Laravel, featuring secure payments via PayHere.",
+      image: "/api/placeholder/600/400",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Laravel", "MySQL", "PayHere"],
+      category: "fullstack",
+      githubUrl: null,
+      liveUrl: null,
+      features: [
+        "Product catalog and search",
+        "Secure payment processing (PayHere)",
+        "User management & orders",
+        "Responsive design",
+        "Admin dashboard",
+        "Cart functionality"
+      ],
+      icon: FaGlobe
     }
   ];
 

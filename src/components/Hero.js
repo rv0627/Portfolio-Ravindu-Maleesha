@@ -96,12 +96,12 @@ const Hero = ({ darkMode }) => {
               <h2 className={`text-2xl md:text-3xl font-semibold mb-4 ${
                 darkMode ? 'text-gray-300' : 'text-gray-700'
               }`}>
-                Full Stack Software Engineering Student
+                Associate Software Engineer
               </h2>
               <p className={`text-lg md:text-xl ${
                 darkMode ? 'text-gray-400' : 'text-gray-600'
               }`}>
-                Passionate about creating innovative solutions with modern technologies
+                Passionate about building efficient, scalable, and user-friendly applications
               </p>
             </motion.div>
 
@@ -112,9 +112,9 @@ const Hero = ({ darkMode }) => {
                 darkMode ? 'text-gray-300' : 'text-gray-600'
               }`}
             >
-              🎓 Undergraduate <strong>BSc (Hons) Full Stack Software Engineering at Bermingham City University, UK</strong> undergraduate student
-              with expertise in <strong>React Native, Java, PHP, Node.js, Spring Boot, Android, Laravel, MySQL</strong>
-              and modern web technologies. Building the future, one line of code at a time.
+              Enthusiastic <strong>Associate Software Engineer</strong> currently working at <strong>Sterling BPO (Australian-based) Company</strong>,
+              with a strong foundation in Full Stack Engineering. Skilled in <strong>Java, React, Spring Boot, Laravel, and MySQL</strong>.
+              Proven experience delivering full-stack solutions including e-commerce platforms, enterprise desktop systems, and mobile applications.
             </motion.p>
 
             {/* CTA Buttons */}

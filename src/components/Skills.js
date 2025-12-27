@@ -14,7 +14,11 @@ import {
   FaGithub,
   FaDatabase,
   FaServer,
-  FaPython
+  FaPython,
+  FaAws,
+  FaTools,
+  FaCreditCard,
+  FaLock
 } from 'react-icons/fa';
 import { 
   SiSpringboot, 
@@ -24,7 +28,12 @@ import {
   SiTailwindcss, 
   SiJavascript,
   SiTypescript,
-  SiFirebase
+  SiFirebase,
+  SiNextdotjs,
+  SiVite,
+  SiExpress,
+  SiSqlite,
+  SiApachemaven
 } from 'react-icons/si';
 
 const Skills = ({ darkMode }) => {
@@ -61,6 +70,8 @@ const Skills = ({ darkMode }) => {
       title: "Frontend Development",
       skills: [
         { name: "React Native", icon: FaReact, level: 90, color: "text-blue-500" },
+        { name: "Next.js", icon: SiNextdotjs, level: 85, color: "text-gray-800" },
+        { name: "Vite", icon: SiVite, level: 85, color: "text-purple-500" },
         { name: "HTML5", icon: FaHtml5, level: 95, color: "text-orange-500" },
         { name: "CSS3", icon: FaCss3Alt, level: 90, color: "text-blue-600" },
         { name: "JavaScript", icon: SiJavascript, level: 85, color: "text-yellow-500" },
@@ -72,24 +83,35 @@ const Skills = ({ darkMode }) => {
     {
       title: "Backend Development",
       skills: [
-  { name: "Java", icon: FaJava, level: 90, color: "text-red-500" },
-  { name: "Python", icon: FaPython, level: 80, color: "text-yellow-700" },
+        { name: "Java", icon: FaJava, level: 90, color: "text-red-500" },
         { name: "Spring Boot", icon: SiSpringboot, level: 85, color: "text-green-500" },
-        { name: "PHP", icon: FaPhp, level: 80, color: "text-indigo-500" },
         { name: "Laravel", icon: SiLaravel, level: 75, color: "text-red-600" },
         { name: "Node.js", icon: FaNodeJs, level: 80, color: "text-green-600" },
-        { name: "Firebase", icon: SiFirebase, level: 70, color: "text-yellow-600" },
+        { name: "Express.js", icon: SiExpress, level: 80, color: "text-gray-500" },
+        { name: "PHP", icon: FaPhp, level: 80, color: "text-indigo-500" },
+        { name: "Python", icon: FaPython, level: 80, color: "text-yellow-700" },
+        { name: "RESTful API", icon: FaServer, level: 90, color: "text-blue-400" },
       ]
     },
     {
-      title: "Database & Tools",
+      title: "Database & Cloud",
       skills: [
         { name: "MySQL", icon: SiMysql, level: 85, color: "text-blue-700" },
         { name: "MongoDB", icon: SiMongodb, level: 75, color: "text-green-700" },
+        { name: "SQLite", icon: SiSqlite, level: 80, color: "text-blue-400" },
+        { name: "Firebase", icon: SiFirebase, level: 70, color: "text-yellow-600" },
+        { name: "AWS", icon: FaAws, level: 60, color: "text-orange-500" },
+      ]
+    },
+    {
+      title: "Tools & Platforms",
+      skills: [
         { name: "Git", icon: FaGitAlt, level: 90, color: "text-orange-600" },
         { name: "GitHub", icon: FaGithub, level: 95, color: "text-gray-800" },
-        { name: "Android", icon: FaAndroid, level: 80, color: "text-green-500" },
-        { name: "Server Management", icon: FaServer, level: 70, color: "text-gray-600" },
+        { name: "Maven", icon: SiApachemaven, level: 80, color: "text-red-600" },
+        { name: "Ant", icon: FaTools, level: 70, color: "text-gray-600" },
+        { name: "PayHere SDK", icon: FaCreditCard, level: 85, color: "text-blue-600" },
+        { name: "OAuth 2.0 / JWT", icon: FaLock, level: 80, color: "text-green-600" },
       ]
     }
   ];
@@ -226,4 +248,3 @@ const Skills = ({ darkMode }) => {
 };
 
 export default Skills;
-

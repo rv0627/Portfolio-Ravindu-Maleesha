@@ -68,32 +68,30 @@ const About = ({ darkMode }) => {
                 <h3 className={`text-2xl font-semibold mb-4 ${
                   darkMode ? 'text-white' : 'text-gray-900'
                 }`}>
-                  Passionate Full Stack Developer
+                  Associate Software Engineer
                 </h3>
                 <p className={`text-lg leading-relaxed mb-6 ${
                   darkMode ? 'text-gray-300' : 'text-gray-600'
                 }`}>
-                  I'm a dedicated undergraduate student pursuing a <strong>BSc (Hons) Full Stack Software Engineering</strong> degree. 
-                  My journey in software development began with a curiosity about how things work, and it has evolved into a 
-                  passion for creating innovative solutions that make a difference.
+                  I'm currently working as an <strong>Associate Software Engineer</strong> at Sterling BPO (Australian-based), 
+                  contributing to the development and maintenance of software solutions within an agile team environment.
                 </p>
                 <p className={`text-lg leading-relaxed mb-6 ${
                   darkMode ? 'text-gray-300' : 'text-gray-600'
                 }`}>
-                  I specialize in building robust applications using modern technologies like <strong>React Native, Java, PHP, Node.js, 
-                  Spring Boot, Android, Laravel, MySQL, HTML, CSS, Tailwind, and Bootstrap</strong>. My approach combines technical 
-                  excellence with creative problem-solving to deliver exceptional user experiences.
+                   I specialize in building robust applications using modern technologies like <strong>React, React Native, Java, Spring Boot, Laravel, Node.js, and MySQL</strong>. 
+                   My experience spans across developing e-commerce platforms, enterprise desktop systems, and mobile applications.
                 </p>
               </div>
 
               {/* Key Points */}
               <div className="space-y-4">
                 {[
-                  "🎯 Focused on creating scalable and maintainable applications",
-                  "🚀 Always learning and adapting to new technologies",
-                  "💡 Passionate about solving complex problems with elegant solutions",
-                  "🤝 Strong believer in collaboration and knowledge sharing",
-                  "📱 Experienced in both mobile and web development",
+                  "🎯 Contributing to agile software development teams",
+                  "🚀 Designing and developing scalable full-stack solutions",
+                  "💡 Debugging and resolving technical issues for system stability",
+                  "🤝 Collaborating with senior engineers",
+                  "📱 Experienced in React Native and RESTful API development",
                 ].map((point, index) => (
                   <motion.div
                     key={index}
@@ -162,21 +160,26 @@ const About = ({ darkMode }) => {
                     <h4 className={`text-lg font-semibold ${
                       darkMode ? 'text-white' : 'text-gray-900'
                     }`}>
-                      BSc (Hons) Full Stack Software Engineering
+                      Education
                     </h4>
-                    <p className={`text-sm ${
-                      darkMode ? 'text-gray-400' : 'text-gray-600'
-                    }`}>
-                      Undergraduate Student
-                    </p>
                   </div>
                 </div>
-                <p className={`text-sm leading-relaxed ${
+                <div className={`space-y-4 ${
                   darkMode ? 'text-gray-300' : 'text-gray-600'
                 }`}>
-                  Currently pursuing comprehensive education in full-stack development, 
-                  covering both frontend and backend technologies with hands-on project experience.
-                </p>
+                  <div>
+                    <p className="font-semibold">BSc (Hons) Software Engineering (Top-Up)</p>
+                    <p className="text-sm">Birmingham City University, UK | 2024 – 2025/Feb</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold">Professional Higher Diploma in Software Engineering</p>
+                    <p className="text-sm">Java Institute for Advanced Technology, Colombo | 2022 – 2024</p>
+                  </div>
+                   <div>
+                    <p className="font-semibold">GCE Advanced Level (Mathematics)</p>
+                    <p className="text-sm">Sri Siddhartha National College, Dikkumbura | 2021</p>
+                  </div>
+                </div>
               </motion.div>
             </motion.div>
           </div>
